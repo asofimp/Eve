@@ -1,0 +1,103 @@
+.new{
+    width: 100%;
+    display: flex;
+}
+
+.new-container{
+    flex: 6;
+}
+
+.top-new, .bottom-new{
+    border-radius: 15px;
+    background: #EEEDED;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+}
+
+.bottom-new{
+    padding: 25px 0 10px 0;
+}
+
+.agregar-title{
+    color: lightgray;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.left-new{
+    flex: 1;
+    text-align: center;
+}
+
+.add-img{
+    height: 10rem;
+    width: 10rem;
+    padding: .6rem;
+    background-color: lightgray;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 40px 20px;
+}
+
+.add-img:hover{
+    opacity: .7;
+}
+
+.right-new{
+    flex: 2;
+}
+
+.form-new{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin: 0 10px;
+}
+
+
+.label-form-icon{
+    display: flex;
+    align-items: center;
+}
+
+.input-container{
+    width: 40%;
+}
+
+.input-form {
+    width: 93%;
+    padding: .625rem;
+    border: 1px solid lightgray;
+    background-color: white;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.basic-multi-selec{
+    background: #EEEDED;
+    color: white;
+}
+
+.input-form::placeholder{
+    color: lightgray;
+}
+
+.bottom-new-save{
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background-color: #CEA697;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.bottom-new-save:hover{
+    background-color: #ce866c;
+}

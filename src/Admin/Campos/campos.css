@@ -1,0 +1,35 @@
+.contenedor{
+    padding: 1rem;
+    margin: 24px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor-label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contenedor-input{
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #929090;
+    padding: 18px 30px;
+    outline-color: #da7753;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 766px ){
+    .contenedor-label{
+        font-size: 1rem;
+    }
+
+    .contenedor-input{
+        width: 100%;
+        padding: 9px 15px;
+    }
+}

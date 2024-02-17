@@ -1,0 +1,8 @@
+.listOrdersDelivery{
+    display: flex;
+    width: 100%;
+}
+
+.container-listOrdersDelivery{
+    flex: 6;
+}

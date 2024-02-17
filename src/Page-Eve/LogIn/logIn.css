@@ -1,0 +1,162 @@
+.loginContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 6;
+    background-color: #EEEDED;
+}
+
+.gobackLogin{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    align-self: start;
+    margin: 2rem;
+    padding: .5rem;
+    background-color: rgba(211, 211, 211, 0.541);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    top: 0;
+    left: 0;
+}
+
+.gobackLogin:hover{
+    background-color: lightgray;
+}
+
+.gobacktxt{
+    color: white;
+    padding: 5px;
+}
+
+.h1logIn{
+    font-size: 20px;
+    font-weight: normal;
+    color: lightgray;
+}
+
+.login-left{
+    flex: 2;
+}
+
+.formLogIn{
+    gap: 8px;
+}
+
+.form-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-right{
+    flex: 1;
+}
+
+.logo-eve-login{
+    position: absolute;
+    top: 0;
+    left: 90%;
+    z-index: 2;
+    width: 115px;
+    height: 90px;
+}
+
+.login-img{
+    position: relative;
+    z-index: 1;
+    min-width: 46.875rem;
+    height: 39.535rem;
+    display: block;
+    aspect-ratio: 1/2;
+    object-fit: cover;
+}
+
+.formLogIn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerformLogIn{
+    display: flex;
+    flex-direction: column;
+}
+
+.labelLogIn{
+    font-weight: normal;
+    font-size: 14px;
+    color: #4d4d4d;
+    margin: 10px 0;
+}
+
+.inputLogIn{
+    width: 250px;
+    padding: .625rem;
+    border: 1px solid lightgray;
+    background-color: white;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.buttonsUser{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rememberContainerlogin{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2PX 18PX 2PX 0;
+}
+
+.forgetlogin{
+    display: flex;
+
+}
+
+.forgetspan{
+    color: rgba(165, 42, 42, 0.521);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.forgetspan:hover{
+    color: rgba(165, 42, 42, 0.719);
+}
+
+.remembertxt{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #4d4d4d;
+}
+
+.buttonLogIn{
+    padding: 10px;
+    margin: 12px;
+    background-color:  #73351f9d;
+    border: none;
+    width: 270px;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.buttonLogIn:hover{
+    background-color: brown;
+}
+
+.otherlogin{
+    color: #73351f9d;
+}
+
+.otherlogin:hover{
+    color:brown;
+}

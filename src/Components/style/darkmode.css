@@ -1,0 +1,169 @@
+body
+{
+    background-color: #D9C8A9; 
+    /*width: 100%;
+    height: 100%;*/
+    padding: 0;
+    margin: 0;
+    /*background-color: #111;
+    overflow: hidden;*/
+    scrollbar-color: red;
+}
+
+body #dark {
+    background-color: #111;
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar{
+    width: .1px;
+    overflow: scroll;
+}
+
+/*Sidebar*/
+#dark .sidebar, 
+#dark .navbar{
+    border-color: #3b3a3a;
+}
+
+#dark .tittle, 
+#dark .icon{
+    color: gray;
+}
+
+#dark span{
+    color: rgb(163, 163, 163);
+}
+
+#dark .li-sidebar:hover{
+    background-color: #333333;
+}
+
+/*Navbar*/
+#dark .search{
+    border-color: #3b3a3a;
+    background: #3b3a3a;
+}
+
+/*Widget*/
+
+#dark .widget{
+    background: #3b3a3a;
+}
+
+#dark .tittle-widget,
+#dark .counter-widget,
+#dark .link-widget,
+#dark .icon-widget{
+    color: lightgray;
+}
+
+/*Chart*/
+
+#dark .chartGrid{
+    stroke: rgba(228, 228, 228, 0.219);
+}
+
+#dark .chart{
+    background-color: #3b3a3a;    
+}
+
+/*featured*/
+#dark .featured{
+    background-color: #3b3a3a;
+}
+
+#dark .tittle-featured{
+    color: lightgray;
+}
+
+#dark .amount, #dark .desc{
+    color: lightgray;
+}
+
+/*Tabla*/
+
+#dark .table{
+    background-color: #3b3a3a;
+}
+
+#dark .tableCell{
+    color: rgb(172, 171, 171);
+}
+
+/*Data table*/
+#dark .data-table-addUser,
+#dark .data-table-title,
+#dark .title-tabla{
+    color: lightgrey;
+}
+#dark .Grid{
+    background: #3b3a3a;
+    color: lightgray;
+}
+
+/*Single*/
+
+#dark .left-single{
+    background-color: #3b3a3a;
+}
+
+#dark .title-single{
+    color: grey;
+}
+
+#dark .item-details-title,
+#dark .item-details-key{
+    color: lightgray;
+}
+
+#dark .edit-bottom{
+    background-color:brown;
+    font-weight: bold;
+}
+
+/*New*/
+#dark .top-new, 
+#dark .bottom-new{
+    background: #3b3a3a;
+}
+
+#dark .agregar-title{
+    color: grey;
+}
+
+#dark .input-form{
+    border-color: lightgray;
+    color: lightgray;
+}
+
+#dark .label-form{
+    color: lightgray;
+}
+
+#dark .input-form::placeholder{
+    color: rgb(88, 88, 88);
+}
+
+#dark .bottom-new-save{
+    background-color: brown;
+}
+
+/*Tabla contenido*/
+
+#dark .tablaContenido{
+    background-color: #3b3a3a;
+}
+
+#dark .tablaContenido-info{
+    color: lightgray;
+}
+
+#dark .tablaContenido-detailsdato{
+    background: #333333;
+    color: lavenderblush;
+}
+
+#dark .tablaContenido-detailsTitle{
+    color: lightgray;
+}

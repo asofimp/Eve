@@ -1,0 +1,94 @@
+.formLogIn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.h1logIn{
+    font-size: 20px;
+    font-weight: normal;
+    color: lightgray;
+}
+
+.containerformLogIn{
+    display: flex;
+    flex-direction: column;
+}
+
+.labelLogIn{
+    font-weight: normal;
+    font-size: 14px;
+    color: #4d4d4d;
+    margin: 10px 0;
+}
+
+.inputLogIn{
+    width: 250px;
+    padding: .625rem;
+    border: 1px solid lightgray;
+    background-color: white;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.buttonsUser{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rememberContainerlogin{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2PX 18PX 2PX 0;
+}
+
+.forgetlogin{
+    display: flex;
+
+}
+
+.forgetspan{
+    color: rgba(165, 42, 42, 0.521);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.forgetspan:hover{
+    color: rgba(165, 42, 42, 0.719);
+}
+
+.remembertxt{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #4d4d4d;
+}
+
+.buttonLogIn{
+    padding: 10px;
+    margin: 12px;
+    background-color:  #73351f9d;
+    border: none;
+    width: 270px;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.buttonLogIn:hover{
+    background-color: brown;
+}
+
+.otherlogin{
+    color: #73351f9d;
+    cursor: pointer;
+}
+
+.otherlogin:hover{
+    color: brown;
+}

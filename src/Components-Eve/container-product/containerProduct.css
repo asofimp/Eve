@@ -1,0 +1,114 @@
+.containerProduct-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.containerProduct{
+    display: flex;
+    flex-direction: column;
+    flex: 6;
+    margin: 1.5rem;
+    max-width: 250px;
+    position: relative;
+}
+
+.containerProduct-img{
+    height: 250px;
+    width: 250px;
+    aspect-ratio: 1/1;
+    object-fit:cover ;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+}
+
+.containerProduct-img {
+    transition: transform 0.3s ease; /* Agregar transición para suavizar el efecto de zoom */
+}
+
+.containerProduct:hover .containerProduct-img {
+    transform: scale(1.01); /* Hacer zoom al hacer hover */
+    filter: saturate(50%);
+}
+
+.containerProduct-añadir {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    background-color: whitesmoke;
+    color: rgba(0, 0, 0, 0.507);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+    opacity: 0; /* Inicialmente oculto */
+    transition: opacity 0.3s ease; /* Agregar transición para suavizar el efecto */
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.containerProduct-añadir:hover{
+    background-color: lightgray;
+}
+
+.containerProduct:hover .containerProduct-añadir {
+    opacity: 1; /* Hacer visible al hacer hover */
+    z-index: 2;
+}
+
+.containerProduct-left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: .8rem 0 0 0 ; 
+    padding: 0;
+}
+
+.containerProduct-span{
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}
+
+.containerProduct-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.moldeColores{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.molde{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border: .5px solid;
+    margin: 0 1.5px;
+    padding: 0;
+    opacity: 0.7;
+}
+
+.molde:hover{
+    opacity: 1;
+}
+
+.containerProduct-precio{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.buttonsReaction{
+    display: flex;
+    flex-wrap: wrap;
+}

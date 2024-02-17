@@ -1,0 +1,44 @@
+.singleProduct{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 6;
+}
+
+
+.singleProduct-left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.singleProduct-img{
+    aspect-ratio: 1/2;
+    object-fit: cover;
+    width: 415px;
+    height: 415px;
+    position: relative;
+    top: 27%;
+    left: 25%;
+}
+
+.singleProduct-imgconjunt{
+    display: flex;
+    flex-wrap: wrap;
+    top: 80%;
+    left: 50%;
+}
+
+.singleProduct-imgsC{
+    display: flex;
+    aspect-ratio: 1/2;
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+
+}
+
+.singleProduct-right{
+    flex: 2;
+}

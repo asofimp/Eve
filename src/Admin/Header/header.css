@@ -1,0 +1,9 @@
+.logoAdmin{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.logoAdmin img{
+    width: 7rem;
+}

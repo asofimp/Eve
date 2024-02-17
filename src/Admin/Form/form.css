@@ -1,0 +1,23 @@
+.form{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 0 0;
+    padding: 0 0 4.5rem 0;
+}
+
+.form-content{
+    background-color: #f6f6f6 ;
+    box-shadow:  7px 7px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 1rem 5rem;
+}
+
+
+@media (max-width: 780px){
+    .form{
+        margin: 8rem 0;
+    }
+    .form-content{
+        padding: .5rem 1.5rem;
+    }
+}

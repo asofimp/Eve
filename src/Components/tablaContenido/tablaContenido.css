@@ -1,0 +1,120 @@
+.tablaContenido{
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 1rem ;
+    background: #EEEDED;
+}
+
+.tablaContenido-header{
+    display: flex;
+    align-items: center;
+    flex: 2;
+}
+
+.tablaContanido-title{
+    color: lightgray;
+    font-size: 24px;
+    font-weight: 600;
+    align-self: start;
+    flex: 1;
+    margin: 1rem 15px;
+}
+
+.tablaContenido-delete{
+    color: brown;
+    padding: .5rem;
+    border-radius: 5px;
+    border: .8px solid brown;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.tablaContenido-delete:hover{
+    border: 1px solid rgb(105, 26, 26);
+    color: rgb(105, 26, 26);
+    background-color: lightgray;
+}
+
+.tablaContenido-edit{
+    color: #EEEDED;
+    background-color: brown;
+    padding: .6rem .9rem;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.tablaContenido-edit:hover{
+    background-color: rgb(105, 26, 26);
+    color: #EEEDED;
+}
+
+.tablaContenido-container{
+    display: flex;
+    width: 100%;
+}
+.tablaContenido-left{
+    flex:1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tablaContenido-product{
+    font-weight: 400;
+    font-size: 16px;
+    color: gray;
+    margin: 1rem;
+}
+
+.tablaContenido-img{
+    margin: 3rem 0 0 0;
+    width: 13rem;
+    height: 15rem;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.tablaContenido-right{
+    flex: 2;
+}
+
+.tablaContenido-info{
+    color: gray;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.tablaContenido-contenido{
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.detalle-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.tablaContenido-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.tablaContenido-detailsTitle{
+    align-self: start;
+    margin: 5px;
+    color: gray;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+
+.tablaContenido-detailsdato{
+    color: darkslategrey;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: lightgray;
+    padding: .5rem;
+    width: 330px;
+}

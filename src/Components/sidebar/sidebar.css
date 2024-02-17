@@ -1,0 +1,59 @@
+.sidebar{
+    flex: 1;
+    border: .7px solid rgb(235, 220, 225);
+    min-height: 100vh;
+}
+.logo{
+    width: 9rem;
+    height: 6rem;
+}
+
+.top{
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center{
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+.center ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.tittle{
+    font-size: 16px;
+    color: #626161;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.li-sidebar{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.li-sidebar:hover{
+    background-color: #dbceb4;
+}
+
+.icon{
+    font-size: 20px;
+    color: black;
+}
+
+span{
+    font-style: 16px;
+    font-weight: 400;
+    color: #626161;
+    margin-left: 10px;
+}
+
+  
