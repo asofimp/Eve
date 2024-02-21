@@ -13,32 +13,33 @@
     align-items: center;
 }
 
+.contenedor-singleProduct{
+    display: flex;
+    align-items: center; 
+    margin: 6rem 5rem 0 5rem ;
+}
+
 .singleProduct-img{
-    aspect-ratio: 1/2;
+    aspect-ratio: 1/1;
     object-fit: cover;
-    width: 415px;
-    height: 415px;
-    position: relative;
-    top: 27%;
-    left: 25%;
+    width: 380px;
+    height: 350px;
+    /*position: relative;*/
+    top: 7.2rem;
+    left: 5rem;  
 }
 
-.singleProduct-imgconjunt{
-    display: flex;
-    flex-wrap: wrap;
-    top: 80%;
-    left: 50%;
-}
-
-.singleProduct-imgsC{
-    display: flex;
-    aspect-ratio: 1/2;
+.singleProduct-imgConjunto{
+    aspect-ratio: 1/1;
     object-fit: cover;
-    width: 50px;
-    height: 50px;
-
+    width: 110px;
+    height: 100px;
+    /*position: relative;*/
+    top: 8rem;
+    left: 5rem;
 }
 
 .singleProduct-right{
     flex: 2;
 }
+
